@@ -311,6 +311,9 @@ and (max-width: $break_medium) {
 	}
 	footer {
 		height: 150px;
+		ul.social-bookmarks {
+			left: 325px;
+		}
 	}
 }
 

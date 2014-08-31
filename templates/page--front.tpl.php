@@ -64,6 +64,7 @@
 	<i class="fa fa-search"></i><input type="search" name="searchbox"><input type="submit" name="submit" value="search"></button>
 	<ul class="social-bookmarks">
 		<li class="linkedin"><a href="http://www.linkedin.com/pub/thomas-dodson/b/183/733"><i class="fa fa-linkedin"></i></a></li>
+		<li class="github"><a href="https://github.com/tdodson"><i class="fa fa-github-alt"></i></a></li>
 		<li class="twitter"><a href="http://twitter.com/techneblog"><i class="fa fa-twitter"></i></a></li>
 		<li class="facebook"><a href="http://www.facebook.com/dodson.t"><i class="fa fa-facebook"></i></a></li>
 		<li class="rss"><a href="feed.xml"><i class="fa fa-rss"></i></a></li>
