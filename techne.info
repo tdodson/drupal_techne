@@ -1,0 +1,16 @@
+name        = Techne
+description = A custom responsive theme for the Thomas Dodson's blog site, "Techneblog".
+screenshot  = assets/images/techne_shot.png
+
+; CSS
+stylesheets[all][] = assets/css/style.css
+
+core        = 7.x
+engine      = phptemplate
+
+regions[header]         = Header
+regions[banner]					= Banner
+regions[content]        = Content
+regions[sidebar]  			= Sidebar
+regions[navigation]     = Navigation
+regions[footer]         = Footer

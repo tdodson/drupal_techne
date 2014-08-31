@@ -1,0 +1,38 @@
+@import url("http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic");
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
+
+body {
+	width: 100%;
+	font-family: $font-sans;
+	font-size: 1em;
+	line-height: 150%
+}
+
+em {
+	font-style: italic;
+}
+
+i {
+	color: $baseBlue;
+}
+
+#{headings()} {
+	font-family: $font-sans;
+}
+
+/* Link Styling */
+a {
+	&:link {
+		text-decoration: none;
+		color: $baseBlue;
+	}
+	&:hover, &:active {
+		text-decoration:underline;
+	}
+	&:focus {
+		outline: none;
+	}
+	&:visited {
+		color: desaturate($baseBlue, 20%);
+	}
+}
