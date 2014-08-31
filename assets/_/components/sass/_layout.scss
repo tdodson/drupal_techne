@@ -5,7 +5,7 @@ strong {
 
 header {
 	height: 105px;
-	background: url(../../images/triangles.png) repeat;
+	background: url(../images/triangles.png) repeat;
 }
 
 hgroup#logo {
@@ -109,7 +109,7 @@ nav {
 footer {
 	height: 75px;
 	width: 100%;
-	background: url(../../images/triangles.png) repeat;
+	background: url(../images/triangles.png) repeat;
 	i.fa-search {
 		padding: 25px 0.5rem 0 3rem;
 		float: left;
@@ -267,7 +267,7 @@ and (max-width: $break_medium) {
 	section#banner {
 		width: 760px;
 		height: 283px;
-		background: url(../../images/working_760_bw.jpg) no-repeat;
+		background: url(../images/working_760_bw.jpg) no-repeat;
 		#bannertext {
 				float: left;
 				width: 65%;
@@ -330,7 +330,7 @@ and (max-width: $break_large) {
 	section#banner {
 		width: 1280px;
 		height: 480px;
-		background: url(../../images/working_1280_bw.jpg) no-repeat;
+		background: url(../images/working_1280_bw.jpg) no-repeat;
 		position: relative;
 		overflow: hidden;
 		#bannertext {
@@ -410,7 +410,7 @@ and (min-width: $break_large +1) {
 	section#banner {
 		width: 1280px;
 		height: 480px;
-		background: url(../../images/working_1280_bw.jpg) no-repeat;
+		background: url(../images/working_1280_bw.jpg) no-repeat;
 		position: relative;
 		overflow: hidden;
 		#bannertext {
@@ -494,7 +494,7 @@ and (min-width: $break_huge) {
 	section#banner {
 		width: 1680px;
 		height: 500px;
-		background: url(../../images/working_1680_bw.jpg) no-repeat;
+		background: url(../images/working_1680_bw.jpg) no-repeat;
 		#bannertext {
 			height: 500px;
 			p {

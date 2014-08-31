@@ -98,7 +98,7 @@ strong {
 /* line 6, ../_/components/sass/_layout.scss */
 header {
   height: 105px;
-  background: url(../../images/triangles.png) repeat; }
+  background: url(../images/triangles.png) repeat; }
 
 /* line 11, ../_/components/sass/_layout.scss */
 hgroup#logo {
@@ -201,7 +201,7 @@ nav {
 footer {
   height: 75px;
   width: 100%;
-  background: url(../../images/triangles.png) repeat; }
+  background: url(../images/triangles.png) repeat; }
   /* line 113, ../_/components/sass/_layout.scss */
   footer i.fa-search {
     padding: 25px 0.5rem 0 3rem;
@@ -348,7 +348,7 @@ footer {
   section#banner {
     width: 760px;
     height: 283px;
-    background: url(../../images/working_760_bw.jpg) no-repeat; }
+    background: url(../images/working_760_bw.jpg) no-repeat; }
     /* line 271, ../_/components/sass/_layout.scss */
     section#banner #bannertext {
       float: left;
@@ -408,7 +408,7 @@ footer {
   section#banner {
     width: 1280px;
     height: 480px;
-    background: url(../../images/working_1280_bw.jpg) no-repeat;
+    background: url(../images/working_1280_bw.jpg) no-repeat;
     position: relative;
     overflow: hidden; }
     /* line 336, ../_/components/sass/_layout.scss */
@@ -484,7 +484,7 @@ footer {
   section#banner {
     width: 1280px;
     height: 480px;
-    background: url(../../images/working_1280_bw.jpg) no-repeat;
+    background: url(../images/working_1280_bw.jpg) no-repeat;
     position: relative;
     overflow: hidden; }
     /* line 416, ../_/components/sass/_layout.scss */
@@ -564,7 +564,7 @@ footer {
   section#banner {
     width: 1680px;
     height: 500px;
-    background: url(../../images/working_1680_bw.jpg) no-repeat; }
+    background: url(../images/working_1680_bw.jpg) no-repeat; }
     /* line 498, ../_/components/sass/_layout.scss */
     section#banner #bannertext {
       height: 500px; }
