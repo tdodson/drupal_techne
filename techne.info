@@ -8,9 +8,8 @@ stylesheets[all][] = assets/css/style.css
 core        = 7.x
 engine      = phptemplate
 
-regions[header]         = Header
-regions[banner]					= Banner
 regions[content]        = Content
+regions[latest]					= Latest
 regions[sidebar]  			= Sidebar
-regions[navigation]     = Navigation
-regions[footer]         = Footer
+regions[page_top]				= Page Top
+regions[page_bottom]		= Page Bottom

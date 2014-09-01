@@ -59,8 +59,10 @@ section#latest {
 	}
 	p {
 		padding-bottom: 3rem;
+		img {
+			display: none;
+		}
 	}
-
 }
 
 aside.sidebar {
