@@ -76,7 +76,7 @@
   <div id="page-wrapper"><div id="page">
     <header>
       <hgroup id="logo">
-        <h1><img src="sites/all/themes/techne/assets/images/techne_logo_320.gif"><a href="http://techneblog.com"></a></h1>
+        <h1><a href="http://techneblog.com"><img src="sites/all/themes/techne/assets/images/techne_logo_320.gif"></a></h1>
       </hgroup>
       <h1 id="menu"><a href="#firstlink">menu</a></h1>
     </header>

@@ -1,6 +1,6 @@
 <header>
 	<hgroup id="logo">
-		<h1><img src="sites/all/themes/techne/assets/images/techne_logo_320.gif"><a href="http://techneblog.com"></a></h1>
+		<h1><a href="http://techneblog.com"><img src="sites/all/themes/techne/assets/images/techne_logo_320.gif"></a></h1>
 		<h2>{ <em>a tech blog for non-techies</em> }</h2>
 	</hgroup>
 	<h1 id="menu"><a href="#firstlink">menu</a></h1>
@@ -29,7 +29,7 @@
 	</ul>
 </nav>
 <footer>
-	<i class="fa fa-search"></i><input type="search" name="searchbox"><input type="submit" name="submit" value="search"></button>
+	<i class="fa fa-search"></i><?php print render($page['footer']); ?>
 	<ul class="social-bookmarks">
 		<li class="linkedin"><a href="http://www.linkedin.com/pub/thomas-dodson/b/183/733"><i class="fa fa-linkedin"></i></a></li>
 		<li class="github"><a href="https://github.com/tdodson"><i class="fa fa-github-alt"></i></a></li>

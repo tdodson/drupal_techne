@@ -120,15 +120,15 @@ footer {
 	}
 	input {
 		float: left;
-		&[name="searchbox"] {
+		&[name="search_block_form"] {
 			margin-top: 25px;
 			width: 150px;
-			height: 23px;
+			height: 18px;
 			border: none;
 			border-radius: 50px;	
 		}
-		&[name="submit"] {
-			margin: 25px 0 0 0.5rem;
+		&[name="op"] {
+			margin: 24px 0 0 0.5rem;
 			padding: 0 10px;
 			height: 23px;
 			background: $baseBlue;
@@ -142,7 +142,7 @@ footer {
 	ul.social-bookmarks {
 		position: absolute;
 		left: 360px;
-		padding: 25px 0 0 0;
+		padding: 23px 0 0 0;
 		font-size: 1.5rem;
 		li {
 			float: left;
@@ -247,7 +247,7 @@ and (max-width: $break_small) {
 	footer {
 		height: 115px;
 		i.fa-search {
-			float: none;
+			float: left;
 		}
 		input {
 			float: none;
@@ -482,7 +482,7 @@ and (min-width: $break_large +1) {
 		}
 		ul.social-bookmarks {
 			font-size: 1.8rem;
-			padding: 22px 0 0 0;
+			padding: 20px 0 0 0;
 			left: 425px;
 		}
 		li {

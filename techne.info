@@ -15,5 +15,6 @@ engine      = phptemplate
 regions[content]        = Content
 regions[latest]					= Latest
 regions[sidebar]  			= Sidebar
+regions[footer]					= Footer
 regions[page_top]				= Page Top
 regions[page_bottom]		= Page Bottom
