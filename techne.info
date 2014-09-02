@@ -5,6 +5,10 @@ screenshot  = assets/images/techne_shot.png
 ; CSS
 stylesheets[all][] = assets/css/style.css
 
+; JS
+scripts[] = assets/js/script.js
+
+
 core        = 7.x
 engine      = phptemplate
 
