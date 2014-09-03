@@ -1,4 +1,8 @@
 // Global Styles
+body {
+	background: #EFEFEF;
+}
+
 strong {
 	font-weight: 700;
 }
@@ -13,6 +17,10 @@ hgroup#logo {
 	h1 {
 		padding: 15px 0 0 102px;
 		float: left;
+	}
+	h1#interior-page {
+		padding: 15px 0 0 0;
+		margin-left: -50px;
 	}
 	h2 {
 		float: left;
@@ -73,7 +81,23 @@ aside.sidebar {
 		font-size: 1.3rem;
 		font-weight: 700;
 		color: #333;
+		padding-bottom: 0.25rem;
 		border-bottom: 2px solid $baseBlue;
+	}
+	div.content {
+		padding-top: 0.5rem;
+		a {
+			display: block;
+			padding: 0.25rem;
+			// border-bottom: 1px solid #333;
+			&:hover, &:active {
+				text-decoration:none;
+				color: $baseBlue;
+			}
+			&:hover {
+					background: $lightGray;
+			}
+		}
 	}
 }
 
@@ -151,7 +175,34 @@ footer {
 	}
 }
 
-// ----------------------- Media Queries ---------------------
+// <----------------------- Interior Pages / Main Content --------------------->
+
+section#main_content {
+	float: left;
+	width: 65%;
+	padding: 27px 35px 25px 35px;
+	header#page-title {
+		height: auto;
+		width: auto;
+		background: none;
+		padding-bottom: 20px;
+		h1 {
+			color: #333;
+			font-size: 2rem;
+			font-weight: 700;
+			border-bottom: 2px solid $baseBlue;
+			padding-bottom: 0.5rem;
+		}
+	}
+	p {
+		margin: 0 0 1rem 0;
+		font-size: 0.875rem; // 14px / 16px
+		line-height: 1.3125rem; // 21px / 16px
+	}
+}
+
+
+// <----------------------- Media Queries --------------------->
 
 // phone or small device
 @media screen 
@@ -176,6 +227,9 @@ and (max-width: $break_small) {
 	hgroup#logo {
 		h1 {
 			padding: 15px 0 0 0;
+		}
+		h1#interior-page {
+			margin-left: -25px;
 		}
 		h2 {
 			position: absolute;
@@ -232,7 +286,7 @@ and (max-width: $break_small) {
 			padding: 0;
 			border-top: 1px solid #333;
 				&:hover {
-					background: rgba(1, 1, 1, 0.1);
+					background: $lightGray;
 				}
 				&:last-child {
 					border-bottom: 1px solid #333;
