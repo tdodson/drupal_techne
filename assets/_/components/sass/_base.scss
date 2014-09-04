@@ -8,6 +8,12 @@ body {
 	line-height: 150%
 }
 
+p {
+		margin: 0 0 0.875rem 0;
+		font-size: 0.875rem; // 14px / 16px
+		line-height: 1.3125rem;
+}
+
 em {
 	font-style: italic;
 }
