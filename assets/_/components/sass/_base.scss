@@ -16,10 +16,39 @@ i {
 	color: $baseBlue;
 }
 
-#{headings()} {
-	font-family: $font-sans;
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
 }
+section#main_content {
+	h1 {
+		font-size: 1.5rem;
+		line-height: 1.3125rem;
+		padding-bottom: 0.65rem;
+	}
 
+	h2 {
+		font-size: 1.3125rem;
+		line-height: 1.3125rem;
+		padding-bottom: 0.5rem;
+	}
+
+	h3 {
+		font-size: 1.125rem;
+		line-height: 1.3125rem;
+		padding-bottom: 0.45rem;
+	}
+
+	h4 {
+		font-size: 0.9375rem;
+		line-height: 1.3125rem;
+		padding-bottom: 0.3rem;
+	}
+	h5, h6 {
+		font-size: 0.875rem; // 14px / 16px
+		line-height: 1.3125rem;
+		padding-bottom: 0.15rem;
+	}
+}
 /* Link Styling */
 a {
 	&:link {

@@ -82,7 +82,8 @@
     </header>
 
     <?php print $messages; ?>
-
+    <?php if ($tabs): ?><div class="tabs"><?php print render($tabs); ?></div><?php endif; ?>
+    
     <section id="main_content">
       <header id="page-title">
         <?php 

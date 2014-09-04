@@ -1,5 +1,9 @@
 (function ($) {
     $(document).ready(function() {
+      // Adds span "taxo" to taxonomy terms so they can be styled.
+      $(".field-type-taxonomy-term-reference .field-items .field-item") .wrap("<span class='taxoterm' \>"); 
+  
+      // Scroll animation for anchor links.
       $('a[href*=#]:not([href=#])').click(function() {
           if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
               || location.hostname == this.hostname) {

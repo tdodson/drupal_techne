@@ -204,10 +204,92 @@ section#main_content {
 			font-size: 1.65rem;
 		}
 	}
-	p {
-		margin: 0 0 1rem 0;
-		font-size: 0.875rem; // 14px / 16px
-		line-height: 1.3125rem; // 21px / 16px
+	h2[property="dc:title"] {
+		font-size: 1.5rem;
+		font-weight: normal;
+	}
+	.submitted {
+		margin: -0.175rem 0 -0.25rem 0;
+		font-size: 0.7em;
+		text-transform: uppercase;
+		a {
+			text-decoration: none;
+			color: #333;
+		}
+	}
+	.views-row div.content {
+		padding-bottom: 2rem;
+		p {
+			margin: 0 0 1rem 0;
+			font-size: 0.875rem; // 14px / 16px
+			line-height: 1.3125rem; // 21px / 16px
+		}
+	}
+	ul.inline {
+		display: block;
+		margin: -2.5rem 0 2rem 0
+	}
+}
+
+// COMMENTS
+div#comments {
+	padding-bottom: 25px;
+	h2.title.comment-form {
+		color: $baseBlue;
+		font-weight: normal;
+	}
+	.form-item {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	textarea {
+		min-height: 90px;
+	}
+}
+
+input.form-submit {
+			padding: 0 10px;
+			height: 23px;
+			background: $baseBlue;
+			color: #FFF;
+			font-size: 0.75rem;
+			border: none;
+			border-radius: 50px;
+}
+
+// TAXONOMY TERMS
+
+section#main_content {
+	.field-type-taxonomy-term-reference {
+		font-size: 0.8em;
+		padding-bottom: 0.65em;
+		.field-label {
+			float: left;
+			font-weight: normal;
+			color: #333;
+		}
+		.field-item {
+			display: inline;
+		}
+		.taxoterm:after {
+			content: ", ";
+		}
+		.taxoterm:last-child:after {
+			content: "";
+		}
+	}
+}
+
+// ARTICLES PAGE
+.page-articles {
+	section#main_content {
+		.submitted {
+			margin: -0.175rem 0 0 0;	
+			padding-bottom: 0.65em;
+		}
+		img { 
+			display: none
+		}
 	}
 }
 
