@@ -23,29 +23,34 @@ section#main_content {
 	h1 {
 		font-size: 1.5rem;
 		line-height: 1.3125rem;
+		padding-top: 0.65rem;
 		padding-bottom: 0.65rem;
 	}
 
 	h2 {
 		font-size: 1.3125rem;
 		line-height: 1.3125rem;
+		padding-top: 0.5rem;
 		padding-bottom: 0.5rem;
 	}
 
 	h3 {
 		font-size: 1.125rem;
 		line-height: 1.3125rem;
+		padding-top: 0.45rem;
 		padding-bottom: 0.45rem;
 	}
 
 	h4 {
 		font-size: 0.9375rem;
 		line-height: 1.3125rem;
+		padding-top: 0.3rem;
 		padding-bottom: 0.3rem;
 	}
 	h5, h6 {
 		font-size: 0.875rem; // 14px / 16px
 		line-height: 1.3125rem;
+		padding-top: 0.15rem;
 		padding-bottom: 0.15rem;
 	}
 }
@@ -63,5 +68,27 @@ a {
 	}
 	&:visited {
 		color: desaturate($baseBlue, 20%);
+	}
+}
+
+table { 
+	border-collapse: collapse; width:100%; 
+	border: 1px solid #bbbbbb; 
+	td {
+		border: 1px solid #bbbbbb; 
+		padding:5px; 
+	}
+	th {
+		background: #222222; 
+		color: #ffffff; 
+		font-weight: 700; 
+		border: none;
+		padding:5px; 
+	}
+	tr.odd {
+		background:transparent;
+	}
+	tr.even {
+		background:#ffffff; 
 	}
 }

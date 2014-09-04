@@ -226,8 +226,9 @@ section#main_content {
 		}
 	}
 	ul.inline {
-		display: block;
-		margin: -2.5rem 0 2rem 0
+		display: none;
+		// display: block;
+		// margin: -2.5rem 0 2rem 0 
 	}
 }
 
@@ -288,8 +289,7 @@ section#main_content {
 			padding-bottom: 0.65em;
 		}
 		img { 
-			display: none
-		}
+			display: none}
 	}
 }
 
