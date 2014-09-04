@@ -186,12 +186,22 @@ section#main_content {
 		width: auto;
 		background: none;
 		padding-bottom: 20px;
-		h1 {
+		h1.page-title {
 			color: #333;
 			font-size: 2rem;
 			font-weight: 700;
 			border-bottom: 2px solid $baseBlue;
 			padding-bottom: 0.5rem;
+		}
+		i {
+			font-size: 1.5rem;
+			margin-top: -1.75rem;
+			float: right;
+		}
+		h2.page-title {
+			border-bottom: 2px solid $baseBlue;
+			padding-bottom: 0.5rem;
+			font-size: 1.65rem;
 		}
 	}
 	p {

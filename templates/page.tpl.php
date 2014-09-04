@@ -85,7 +85,27 @@
 
     <section id="main_content">
       <header id="page-title">
-        <h1><?php print render($title);?></h1>
+        <?php 
+          if ($title == "Blog") { 
+            print "<h1 class='page-title'>" . render($title) . "</h1>";
+            print "<i class='fa fa-paragraph'></i>"; 
+          } 
+          else if ($title == "Articles") {
+            print "<h1 class='page-title'>" . render($title) . "</h1>";
+            print "<i class='fa fa-newspaper-o'></i>"; 
+          }
+          else if ($title == "Portfolio") {
+            print "<h1 class='page-title'>" . render($title) . "</h1>";
+            print "<i class='fa fa-briefcase'></i>"; 
+          }
+          else if ($title == "About Me") {
+            print "<h1 class='page-title'>" . render($title) . "</h1>";
+            print "<i class='fa fa-meh-o'></i>"; 
+          }
+          else {
+            print "<h2 class='page-title'>" . render($title) . "</h2>";
+          }
+        ?>
       </header>
       <?php print render($page['content']); ?>
     </section>
