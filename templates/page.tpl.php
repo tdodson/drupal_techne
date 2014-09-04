@@ -76,7 +76,7 @@
   <div id="page-wrapper"><div id="page">
     <header>
       <hgroup id="logo">
-        <h1 id="interior-page"><a href="http://techneblog.com"><img src="sites/all/themes/techne/assets/images/techne_logo_320.gif"></a></h1>
+        <h1 id="interior-page"><a href="http://techneblog.com"><img src="http://techneblog.com/sites/all/themes/techne/assets/images/techne_logo_320.gif"></a></h1>
       </hgroup>
       <h1 id="menu"><a href="#firstlink">menu</a></h1>
     </header>
@@ -119,10 +119,10 @@
 
     <nav id="mainmenu">
       <ul>
-        <li><a id="firstlink" href="./blog"><i class="fa fa-paragraph"></i>Blog<span class="navtag">byte-sized tips</span></a> </li>
-        <li><a href="./articles"><i class="fa fa-newspaper-o"></i>Articles<span class="navtag">in-depth explanations</span></a></li>
-        <li><a href="./portfolio"><i class="fa fa-briefcase"></i>Portfolio<span class="navtag">samples of my work</span></a></li>
-        <li><a href="./about"><i class="fa fa-meh-o"></i>About<span class="navtag">info about me</span></a></li>
+        <li><a id="firstlink" href="http://techneblog.com/blog"><i class="fa fa-paragraph"></i>Blog<span class="navtag">byte-sized tips</span></a> </li>
+        <li><a href="http://techneblog.com/articles"><i class="fa fa-newspaper-o"></i>Articles<span class="navtag">in-depth explanations</span></a></li>
+        <li><a href="http://techneblog.com/portfolio"><i class="fa fa-briefcase"></i>Portfolio<span class="navtag">samples of my work</span></a></li>
+        <li><a href="http://techneblog.com/about"><i class="fa fa-meh-o"></i>About<span class="navtag">info about me</span></a></li>
       </ul>
     </nav>
     <footer>
