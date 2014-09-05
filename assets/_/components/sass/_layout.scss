@@ -20,6 +20,7 @@ hgroup#logo {
 		color: #FFF;
 		font: $font-sans;
 		font-size: 1.75rem;
+		font-weight: normal;
 	}
 }
 
@@ -282,10 +283,19 @@ section#main_content {
 			padding-bottom: 0.65em;
 		}
 		img { 
-			display: none}
+			display: none
+		}
 	}
 }
 
+// FOLIO PAGES
+ .node-type-folio section#main_content {
+		width: 95%;
+		img {
+			max-width: 50%;
+			height: auto;
+		}
+ }
 
 // <----------------------- Media Queries --------------------->
 
