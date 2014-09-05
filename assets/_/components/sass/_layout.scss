@@ -1,12 +1,4 @@
 // Global Styles
-body {
-	background: #EFEFEF;
-}
-
-strong {
-	font-weight: 700;
-}
-
 header {
 	height: 105px;
 	background: url(../images/triangles.png) repeat;
@@ -207,6 +199,7 @@ section#main_content {
 	h2[property="dc:title"] {
 		font-size: 1.5rem;
 		font-weight: normal;
+		line-height: 1.8rem;
 	}
 	.submitted {
 		margin: -0.175rem 0 -0.25rem 0;
@@ -307,7 +300,11 @@ and (max-width: $break_tiny) {
 	section#latest {
 		float: left;
 	}
-
+	table {
+		td.views-field-field-imagesmall {
+			display: none;
+		}
+	}
 }
 
 
@@ -392,6 +389,15 @@ and (max-width: $break_small) {
 		}
 		}
 	}
+
+	section#main_content {
+		p {
+			img {
+				float: none;
+				display: block;
+			}
+		}
+	}
 	footer {
 		height: 115px;
 		i.fa-search {
@@ -404,6 +410,11 @@ and (max-width: $break_small) {
 			left: 50px;
 		}
 	}
+	table {
+		td.views-field-field-imagesmall {
+			display: none;
+		}
+	}	
 }
 
 @media screen 
@@ -464,10 +475,25 @@ and (max-width: $break_medium) {
 			}
 		}
 	}
+
+	section#main_content {
+		p {
+			img {
+				float: none;
+				display: block;
+			}
+		}
+	}
+
 	footer {
 		height: 150px;
 		ul.social-bookmarks {
 			left: 325px;
+		}
+	}
+	table {
+		.views-field-field-imagesmall {
+			display: none;
 		}
 	}
 }
@@ -552,7 +578,6 @@ and (max-width: $break_large) {
 			left: 385px;
 		}
 	}
-
 }
 
 @media screen 

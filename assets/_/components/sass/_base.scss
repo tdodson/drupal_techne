@@ -1,8 +1,23 @@
 @import url("http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic");
 @import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
 
+strong {
+	font-weight: 700;
+}
+
+p img.left {
+	float: left;
+	padding: 0 10px 10px 0;
+}
+
+p img.right {
+	float: right;
+	padding: 0 0 10px 10px;
+}
+
 body {
 	width: 100%;
+	background: #EFEFEF;
 	font-family: $font-sans;
 	font-size: 1em;
 	line-height: 150%
@@ -78,8 +93,12 @@ a {
 }
 
 table { 
+	width: 100%;
 	border-collapse: collapse; width:100%; 
 	border: 1px solid #bbbbbb; 
+	tr {
+		width: auto;
+	}
 	td {
 		border: 1px solid #bbbbbb; 
 		padding:5px; 
