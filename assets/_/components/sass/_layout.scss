@@ -373,6 +373,8 @@ and (max-width: $break_small) {
 			width: 100%;
 			background: #FFF;
 			li {
+			display: block;
+			background: #FFF;
 			width: 110%;
 			float: none;
 			padding: 0;
