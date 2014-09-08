@@ -66,6 +66,14 @@ section#latest {
 	}
 }
 
+section#main_content {
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+	
+}
+
 aside.sidebar {
 	float: right;
 	padding: 30px 0;
@@ -363,6 +371,10 @@ and (max-width: $break_small) {
 					line-height: 125%;
 				}
 		}
+	section#main_content {
+		width: 85%;	
+	}
+
 	nav#mainmenu {
 		width: 90%;
 		position: relative;
@@ -405,6 +417,9 @@ and (max-width: $break_small) {
 			img {
 				float: none;
 				display: block;
+				max-width: 320px;
+				height: auto;
+				padding: 0 0 10px 0;
 			}
 		}
 	}
@@ -462,6 +477,10 @@ and (max-width: $break_medium) {
 		margin-top: 15px;
 	}
 
+	section#main_content {
+		width: 85%;	
+	}
+
 	nav {
 		padding: 15px 2rem 75px 5.5rem;
 		font-size: 1.25rem;
@@ -491,6 +510,7 @@ and (max-width: $break_medium) {
 			img {
 				float: none;
 				display: block;
+				padding: 0 0 10px 0;
 			}
 		}
 	}
