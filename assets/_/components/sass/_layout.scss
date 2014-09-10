@@ -296,6 +296,40 @@ section#main_content {
 	}
 }
 
+
+// PORTFOLIO PAGE
+ .page-node-49 {
+ 		section#main_content {
+			width: 95% !important;
+			.wrapper {
+			}
+			ul.work-grid.listing>li {
+				float: left;
+				padding: 0 5px;
+				position: relative;
+				p {
+					padding: 0;
+				}
+				img {
+				}
+				span.project-type {
+					position: absolute;
+					color: #FFF;
+					text-shadow: 1px 1px 1px #333;
+				}
+				h3.work-title {
+					position: absolute;
+				}
+			}
+ 		}
+ }
+
+ 	.page-node-49 ul div.content {
+ 		display: none;
+		position: absolute;
+		background: $opacBlue;
+	}
+
 // FOLIO PAGES
  .node-type-folio section#main_content {
 		width: 95%;
@@ -607,6 +641,43 @@ and (max-width: $break_large) {
 			font-size: 1.5rem;
 			left: 385px;
 		}
+	}
+	// PORTFOLIO PAGE SMALL - MED
+	.page-node-49 {
+ 		section#main_content {
+			.region-content {
+				max-width: 1440px;
+				padding: 0 50px;
+			}
+			ul.work-grid.listing>li {
+				p {
+					margin: -17px 0 0 0;
+				}
+				img {
+					width: 400px;
+					height: 265px;
+				}
+				span.project-type {
+					top: 205px;
+					right: 25px;
+				}
+				h3.work-title {
+					top: 225px;
+					right: 25px;
+					color: #FFF;
+					text-shadow: 1px 1px 1px #333;
+				}
+			}
+ 		}
+ 	}
+
+	.page-node-49 ul div.content {
+		margin: -17px 0 0 0;
+ 		width: 400px;
+ 		height: 265px;
+ 		display: none;
+		position: absolute;
+		background: $opacBlue;
 	}
 }
 

@@ -18,5 +18,17 @@
               }
           }
       });
+
+      // Reveals and hides overlay text for portfolio page images
+      $('ul.work-grid.listing>li').hover(function() {
+         $(this)
+          .find('div')
+          .fadeIn(500);
+       }, function() {
+         $(this)
+         .find('div')
+         .fadeOut(500);
+      });
+
   }); //end document ready function
 })(jQuery);
