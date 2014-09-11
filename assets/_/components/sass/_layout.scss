@@ -176,6 +176,15 @@ footer {
 	}
 }
 
+video#bigvid {
+    float: left;
+    padding: 0 20px 0 0;
+    max-width: 50%;
+    height: auto;
+    background: url("../videos/tokyo_subway.png") no-repeat;
+    background-size: cover;
+}
+
 // <----------------------- Interior Pages / Main Content --------------------->
 
 section#main_content {
