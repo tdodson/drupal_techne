@@ -357,6 +357,44 @@ and (max-width: $break_tiny) {
 			display: none;
 		}
 	}
+	// PORTFOLIO PAGE MICRO - TINY
+	.page-node-49 {
+ 		section#main_content {
+ 			margin-left: -25px;
+			.region-content {
+				padding: 0;
+			}
+			ul.work-grid.listing>li {
+				p {
+					margin: -17px 0 0 0;
+				}
+				img {
+					max-width: 320px;
+					width: 320px;
+					height: 214px;
+				}
+				span.project-type {
+					top: 155px;
+					right: 25px;
+				}
+				h3.work-title {
+					top: 175px;
+					right: 25px;
+					color: #FFF;
+					text-shadow: 1px 1px 1px #333;
+				}
+			}
+ 		}
+ 	}
+
+	.page-node-49 ul div.content {
+		margin: -17px 0 0 0;
+ 		width: 320px;
+ 		height: 214px;
+ 		display: none;
+		position: absolute;
+		background: $opacBlue;
+	}
 }
 
 
@@ -474,6 +512,43 @@ and (max-width: $break_small) {
 			display: none;
 		}
 	}	
+	// PORTFOLIO PAGE SMALL to MEDIUM
+	.page-node-49 {
+ 		section#main_content {
+			.region-content {
+				padding: 0;
+			}
+			ul.work-grid.listing>li {
+				p {
+					margin: -17px 0 0 0;
+				}
+				img {
+					max-width: 380px;
+					width: 380px;
+					height: 254px;
+				}
+				span.project-type {
+					top: 195px;
+					right: 25px;
+				}
+				h3.work-title {
+					top: 215px;
+					right: 25px;
+					color: #FFF;
+					text-shadow: 1px 1px 1px #333;
+				}
+			}
+ 		}
+ 	}
+
+	.page-node-49 ul div.content {
+		margin: -17px 0 0 0;
+		width: 380px;
+		height: 254px;
+ 		display: none;
+		position: absolute;
+		background: $opacBlue;
+	}
 }
 
 @media screen 
@@ -560,6 +635,45 @@ and (max-width: $break_medium) {
 			display: none;
 		}
 	}
+	// PORTFOLIO PAGE SMALL - MED
+	.page-node-49 {
+ 		section#main_content {
+ 			margin-left: -25px;
+			.region-content {
+				max-width: 1440px;
+				padding: 0 25px;
+			}
+			ul.work-grid.listing>li {
+				p {
+					margin: -17px 0 0 0;
+				}
+				img {
+					max-width: 490px;
+					width: 490px;
+					height: 327px;
+				}
+				span.project-type {
+					top: 265px;
+					right: 25px;
+				}
+				h3.work-title {
+					top: 285px;
+					right: 25px;
+					color: #FFF;
+					text-shadow: 1px 1px 1px #333;
+				}
+			}
+ 		}
+ 	}
+
+	.page-node-49 ul div.content {
+		margin: -17px 0 0 0;
+ 		width: 490px;
+ 		height: 327px;
+ 		display: none;
+		position: absolute;
+		background: $opacBlue;
+	}
 }
 
 @media screen 
@@ -641,8 +755,9 @@ and (max-width: $break_large) {
 			font-size: 1.5rem;
 			left: 385px;
 		}
+
 	}
-	// PORTFOLIO PAGE SMALL - MED
+	// PORTFOLIO PAGE MED - LARGE
 	.page-node-49 {
  		section#main_content {
 			.region-content {
@@ -763,9 +878,46 @@ and (min-width: $break_large +1) {
 			padding-right: 1.8rem;
 		}
 	}
+	// PORTFOLIO PAGE > 1090
+	.page-node-49 {
+ 		section#main_content {
+			.region-content {
+				max-width: 1440px;
+				padding: 0 100px;
+			}
+			ul.work-grid.listing>li {
+				p {
+					margin: -17px 0 0 0;
+				}
+				img {
+					width: 400px;
+					height: 265px;
+				}
+				span.project-type {
+					top: 205px;
+					right: 25px;
+				}
+				h3.work-title {
+					top: 225px;
+					right: 25px;
+					color: #FFF;
+					text-shadow: 1px 1px 1px #333;
+				}
+			}
+ 		}
+ 	}
+
+	.page-node-49 ul div.content {
+		margin: -17px 0 0 0;
+ 		width: 400px;
+ 		height: 265px;
+ 		display: none;
+		position: absolute;
+		background: $opacBlue;
+	}
 }
 
- @media screen 
+@media screen 
 and (min-width: $break_huge) {
 	header {
 		width: 1680px;
@@ -790,5 +942,42 @@ and (min-width: $break_huge) {
 				}
 			}		
 		}
+	}
+	// PORTFOLIO PAGE > 1090
+	.page-node-49 {
+ 		section#main_content {
+			.region-content {
+				max-width: 1440px;
+				padding: 0 100px;
+			}
+			ul.work-grid.listing>li {
+				p {
+					margin: -17px 0 0 0;
+				}
+				img {
+					width: 490px;
+					height: 327px;
+				}
+				span.project-type {
+					top: 265px;
+					right: 25px;
+				}
+				h3.work-title {
+					top: 285px;
+					right: 25px;
+					color: #FFF;
+					text-shadow: 1px 1px 1px #333;
+				}
+			}
+ 		}
+ 	}
+
+	.page-node-49 ul div.content {
+		margin: -17px 0 0 0;
+ 		width: 490px;
+ 		height: 327px;
+ 		display: none;
+		position: absolute;
+		background: $opacBlue;
 	}
 } 
