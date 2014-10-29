@@ -2,6 +2,13 @@
 header {
 	height: 105px;
 	background: url(../images/triangles.png) repeat;
+	i#menu_icon {
+		color: #FFF;
+		font-size: 1rem;
+		font-weight: normal;
+		text-shadow: none;
+		padding-right: 7px;
+	}
 }
 
 hgroup#logo {
@@ -70,6 +77,14 @@ section#main_content {
 	img {
 		max-width: 100%;
 		height: auto;
+	}
+	ul {
+		font-size: 0.8rem;
+		line-height: 1.25rem;
+		margin-bottom: 0.875rem;
+	}
+	li {
+
 	}
 	
 }
@@ -507,11 +522,17 @@ and (max-width: $break_small) {
 and (min-width: $break_micro)
 and (max-width: $break_tiny) {
 	header {
-		width: 109%;
+		width: 100%;
+	}
+	h1 a img {
+		margin-left: -35px;
+	}
+	h1#menu a {
+		padding: 30px 30px 0 0;
 	}
 	#bannertext {
 				width: 90%;
-				margin: 15px 0 0 0;
+				margin: 15px 5% 0 5%;
 	}
 	section#latest {
 		float: left;
@@ -701,6 +722,9 @@ and (max-width: $break_large) {
 		left: 630px;
 		font-size: 1rem;
 	}
+	.front h1#menu a {
+		left: 50px;
+	}
 	section#banner {
 		width: 1090px;
 		height: 480px;
@@ -820,6 +844,9 @@ and (min-width: $break_large +1) {
 		top: 43px;
 		left: 700px;
 		font-size: 1rem;
+	}
+	.front h1#menu a {
+		left: 900px;
 	}
 	section#banner {
 		width: 1280px;

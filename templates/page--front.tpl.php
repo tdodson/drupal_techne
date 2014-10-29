@@ -3,7 +3,7 @@
 		<h1><a href="http://techneblog.com"><img src="sites/all/themes/techne/assets/images/techne_logo_320.gif"></a></h1>
 		<h2>{ <em>a tech blog for non-techies</em> }</h2>
 	</hgroup>
-	<h1 id="menu"><a href="#firstlink">menu</a></h1>
+		<h1 id="menu"><a href="#firstlink"><i id="menu_icon" class="fa fa-arrow-circle-o-down"></i>menu</a></h1>
 </header>
 <section id="banner">
 	<div id="bannertext">
