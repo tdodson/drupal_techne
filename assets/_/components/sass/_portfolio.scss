@@ -118,10 +118,10 @@ section#main_content figure.effect-apollo figcaption::before {
 
 section#main_content figure.effect-apollo p {
 	position: absolute;
-	right: 0;
+	right: 60px; // from 0
 	bottom: 60px; // from 0
 	margin: 3em;
-	padding: 0 3em; // from 0 1em
+	padding: 0 1em;
 	max-width: 150px;
 	border-right: 4px solid #fff;
 	text-align: right;
