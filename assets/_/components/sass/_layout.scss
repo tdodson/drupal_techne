@@ -299,7 +299,7 @@ section#main_content {
 			display: inline;
 		}
 		.taxoterm:after {
-			content: ", ";
+			content: ",\0020";
 		}
 		.taxoterm:last-child:after {
 			content: "";
